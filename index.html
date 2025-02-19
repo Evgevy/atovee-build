@@ -157,13 +157,14 @@
             <div class="header__top"><a class="header__logo" href="index.html" aria-label="Переход на главную"><img src="img/sprite/logo.svg" width="153" height="61" alt="Лого"></a>
               <button class="btn-reset main-nav__toggle" type="button" aria-label="Переключатель отображения меню" aria-pressed="false" data-toggle-menu><span></span><span></span><span></span></button>
               <div class="header__icons"> 
-                <button class="header__btn search" type="button">
+                <form class="header__form">
+                  <button class="header__btn search" type="button"><img src="img/sprite/zoom.svg" width="30" height="30" alt="Лого"></button>
                   <div class="custom-input header__search-input">
                     <label>
                       <input type="text" name="search">
                     </label>
-                  </div><img src="img/sprite/zoom.svg" width="30" height="30" alt="Лого">
-                </button><a class="header__btn" href="#!"><img src="img/content/heart.png" width="30" height="30" alt="Лого">
+                  </div>
+                </form><a class="header__btn" href="#!"><img src="img/content/heart.png" width="30" height="30" alt="Лого">
                   <p>Избранное </p></a><a class="header__btn" href="#!"><img src="img/sprite/user.svg" width="30" height="30" alt="Лого">
                   <p>Войти</p></a><a class="header__btn" href="#!"><img src="img/sprite/bag.svg" width="30" height="30" alt="Лого">
                   <p>Корзина</p></a>
@@ -266,10 +267,10 @@
         <section class="intro">
           <div class="container">
             <div class="intro__wrapper">
-              <div class="intro__banner"> <img src="img/content/intro/intro-banner.webp"></div>
+              <div class="intro__banner"> <img src="img/content/intro/intro-banner.webp" alt="Баннер с лицом девушки"></div>
               <div class="intro__info"> 
                 <h1 class="intro__title">Заботимся о коже с использованием научных открытий</h1>
-                <p class="intro__text">atoveé — бренд уходовой косметики, предлагающий безопасные и эффективные решения для ухода за атопичной, сухой и чувствительной кожей.  Наши продукты основаны на научных исследованиях и разработаны с учетом потребностей клиентов, обеспечивая уверенность и комфорт в ежедневном уходе и особенно в периоды обострения.</p><a class="intro__link" href="#!">Подробнее</a>
+                <p class="intro__text">atoveé — бренд уходовой косметики, предлагающий безопасные и эффективные решения для ухода за атопичной, сухой и чувствительной кожей. Наши продукты основаны на научных исследованиях и разработаны с учетом потребностей клиентов, обеспечивая уверенность и комфорт в ежедневном уходе и особенно в периоды обострения.</p><a class="intro__link" href="#!">Подробнее</a>
               </div>
             </div>
           </div>
@@ -277,9 +278,7 @@
         <section class="collection"> 
           <div class="container"> 
             <div class="collection__wrapper">
-              <div class="collection__top"> 
-                <h2 class="collection__title">Коллекции</h2><a class="collection__link" href="#!">Все коллекции</a>
-              </div>
+              <h2 class="collection__title">Коллекции</h2><a class="collection__link" href="#!">Все коллекции</a>
               <ul class="collection__list"> 
                 <li class="collection__item"><a href="#!"> 
                     <div class="collection__image"> <img src="img/content/collection/card1.webp" alt="Товар из коллекции"></div>
@@ -304,7 +303,7 @@
                     <div class="swiper-slide">
                       <article class="products-card"> 
                         <div class="products-card__content"> 
-                          <div class="products-card__img"> <img src="img/content/products/product1.webp" width="345" height="420">
+                          <div class="products-card__img"> <img src="img/content/products/product1.webp" width="345" height="420" alt="Изображение продукта">
                           </div>
                           <div class="products-card__info">
                             <h2 class="products-card__title">Крем для лица и тела</h2>
@@ -321,7 +320,7 @@
                     <div class="swiper-slide">
                       <article class="products-card"> 
                         <div class="products-card__content"> 
-                          <div class="products-card__img"> <img src="img/content/products/product2.webp" width="345" height="420">
+                          <div class="products-card__img"> <img src="img/content/products/product2.webp" width="345" height="420" alt="Изображение продукта">
                           </div>
                           <div class="products-card__info">
                             <h2 class="products-card__title">Масло для душа</h2>
@@ -338,7 +337,7 @@
                     <div class="swiper-slide">
                       <article class="products-card"> 
                         <div class="products-card__content"> 
-                          <div class="products-card__img"> <img src="img/content/products/product3.webp" width="345" height="420">
+                          <div class="products-card__img"> <img src="img/content/products/product3.webp" width="345" height="420" alt="Изображение продукта">
                           </div>
                           <div class="products-card__info">
                             <h2 class="products-card__title">Увлажняющие средства</h2>
@@ -355,7 +354,7 @@
                     <div class="swiper-slide">
                       <article class="products-card"> 
                         <div class="products-card__content"> 
-                          <div class="products-card__img"> <img src="img/content/products/product4.webp" width="345" height="420">
+                          <div class="products-card__img"> <img src="img/content/products/product4.webp" width="345" height="420" alt="Изображение продукта">
                           </div>
                           <div class="products-card__info">
                             <h2 class="products-card__title">Очищающие средства</h2>
@@ -372,7 +371,7 @@
                     <div class="swiper-slide">
                       <article class="products-card"> 
                         <div class="products-card__content"> 
-                          <div class="products-card__img"> <img src="img/content/products/product1.webp" width="345" height="420">
+                          <div class="products-card__img"> <img src="img/content/products/product1.webp" width="345" height="420" alt="Изображение продукта">
                           </div>
                           <div class="products-card__info">
                             <h2 class="products-card__title">Крем для лица и тела</h2>
@@ -403,10 +402,10 @@
                     <div class="swiper-slide">
                       <article class="articles-card"> 
                         <div class="articles-card__content"> 
-                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420">
+                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420" alt="Название статьи">
                           </div>
                           <div class="articles-card__info">
-                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#">Подробнее  </a>
+                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#!">Подробнее  </a>
                           </div>
                         </div>
                       </article>
@@ -414,10 +413,10 @@
                     <div class="swiper-slide">
                       <article class="articles-card"> 
                         <div class="articles-card__content"> 
-                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420">
+                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420" alt="Название статьи">
                           </div>
                           <div class="articles-card__info">
-                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#">Подробнее  </a>
+                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#!">Подробнее  </a>
                           </div>
                         </div>
                       </article>
@@ -425,10 +424,10 @@
                     <div class="swiper-slide">
                       <article class="articles-card"> 
                         <div class="articles-card__content"> 
-                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420">
+                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420" alt="Название статьи">
                           </div>
                           <div class="articles-card__info">
-                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#">Подробнее  </a>
+                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#!">Подробнее  </a>
                           </div>
                         </div>
                       </article>
@@ -436,10 +435,10 @@
                     <div class="swiper-slide">
                       <article class="articles-card"> 
                         <div class="articles-card__content"> 
-                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420">
+                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420" alt="Название статьи">
                           </div>
                           <div class="articles-card__info">
-                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#">Подробнее  </a>
+                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#!">Подробнее  </a>
                           </div>
                         </div>
                       </article>
@@ -447,10 +446,10 @@
                     <div class="swiper-slide">
                       <article class="articles-card"> 
                         <div class="articles-card__content"> 
-                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420">
+                          <div class="articles-card__img"> <img src="img/content/articles/articles1.webp" width="345" height="420" alt="Название статьи">
                           </div>
                           <div class="articles-card__info">
-                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#">Подробнее  </a>
+                            <h2 class="articles-card__title">Название статьи. Можно в несколько строчек</h2><a class="articles-card__link" href="#!">Подробнее  </a>
                           </div>
                         </div>
                       </article>
@@ -490,7 +489,7 @@
                   <button class="form__btn" type="submit">Подписаться </button>
                 </form>
               </div>
-              <div class="form__image"> <img src="img/content/form/form.webp" alt="Форма"></div>
+              <div class="form__image"> <img src="img/content/form/form2.webp" alt="Изображение крема"></div>
             </div>
           </div>
         </section>
